@@ -1,0 +1,27 @@
+name: Hungergames
+version: '${project.version}'
+main: com.brozorb.hungergames.Hungergames
+api-version: 1.18
+authors: [ brozorb ]
+description: hungergames minigames plugin
+commands:
+  heal:
+    permission: hungergames.heal
+    usage: /<command>
+    description: Heal yourself to max health
+    aliases: [ healme ]
+  feed:
+    permission: hungergames.feed
+    usage: /<command>
+    description: Feed yourself to max saturation
+    aliases: [ feedme ]
+  team:
+    permission: hungergames.team
+    usage: /<command> colour
+    description: Change your team
+    aliases: [ team ]
+  start:
+    permission: hungergames.start
+    usage: /<command>
+    description: Start the game
+    aliases: [ start ]
